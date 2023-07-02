@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.containerOF_morestorise_PopularPost{
+  display: flex;
+  position: relative;
+}
