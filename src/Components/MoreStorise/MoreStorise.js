@@ -1,6 +1,12 @@
 import React from 'react'
 import Styled from "./MoreStorise.module.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 const MoreStorise = () => {
+    useEffect(() => {
+        AOS.init();
+      }, []);
     return (
         <div className={Styled.moreStorise_container}>
             <div className={Styled.addvertisement}>
@@ -8,8 +14,8 @@ const MoreStorise = () => {
                 <h1>MORE STORIES</h1>
             </div>
 
-            <div className={Styled.morestoriseall}>
-                <div className={Styled.containtofmorestorise}>
+            <div className={Styled.morestoriseall} >
+                <div className={Styled.containtofmorestorise} data-aos="fade-left">
                     <div className={Styled.imgdiv}>
                         <img src="https://1.bp.blogspot.com/-dQBN2UxiXqU/Vupjn7UQgdI/AAAAAAAADY8/y49Bi2v9urM2FcwQqqIA7OmWntqajKusg/w416-h226-p-k-no-nu/woman-1150067_960_720.jpg" alt="" />
                         <span className={Styled.moreStorise_Title}>FASHION</span>
@@ -21,7 +27,7 @@ const MoreStorise = () => {
                     </div>
                 </div>
 
-                <div className={Styled.containtofmorestorise}>
+                <div className={Styled.containtofmorestorise} data-aos="fade-left">
                     <div className={Styled.imgdiv}>
                         <img src="https://1.bp.blogspot.com/-wnV4ZvWjJaQ/VupiUH0Il2I/AAAAAAAADYs/rwc4kAnERYgXU8EXqsQGrH5-_o8a3_28w/w416-h226-p-k-no-nu/business-839788_960_720.jpg" alt="" />
                         <span className={Styled.moreStorise_Title}>BUSINESS</span>
@@ -34,7 +40,7 @@ const MoreStorise = () => {
                 </div>
 
 
-                <div className={Styled.containtofmorestorise}>
+                <div className={Styled.containtofmorestorise} data-aos="fade-left">
                     <div className={Styled.imgdiv}>
                         <img src="https://4.bp.blogspot.com/-R3jFy7SYZL4/Vupgft_tacI/AAAAAAAADYM/fwh1GYHl8YYIRAREFKG1d-cxgA-05ySNA/w416-h226-p-k-no-nu/hipster-865295_960_720.jpg" alt="" />
                         <span className={Styled.moreStorise_Title}>FASHION</span>
@@ -47,7 +53,7 @@ const MoreStorise = () => {
                 </div>
 
 
-                <div className={Styled.containtofmorestorise}>
+                <div className={Styled.containtofmorestorise} data-aos="fade-left">
                     <div className={Styled.imgdiv}>
                         <img src="https://1.bp.blogspot.com/-tE181d_K7gs/Vupfu_6tHnI/AAAAAAAADYE/OXF5cqzoXao890DJVCBdSeEMyCtdcKIjA/w416-h226-p-k-no-nu/girl-984155_960_720.jpg" alt="" />
                         <span className={Styled.moreStorise_Title}>FASHION</span>
@@ -60,7 +66,7 @@ const MoreStorise = () => {
                 </div>
 
 
-                <div className={Styled.containtofmorestorise}>
+                <div className={Styled.containtofmorestorise} data-aos="fade-left">
                     <div className={Styled.imgdiv}>
                         <img src="https://1.bp.blogspot.com/-v0QptPDrcVs/VupeaXsiCOI/AAAAAAAADXw/mXxQ3zVItm0UWkJqINGNkzqwVFL4pA6DQ/s1600/books-1185628_960_720.jpg" alt="" />
                         <span className={Styled.moreStorise_Title}>LEARN</span>
@@ -73,7 +79,7 @@ const MoreStorise = () => {
                 </div>
 
 
-                <div className={Styled.containtofmorestorise}>
+                <div className={Styled.containtofmorestorise} data-aos="fade-left">
                     <div className={Styled.imgdiv}>
                         <img src="https://4.bp.blogspot.com/-hRZbMTprGYM/VupbiPgYX-I/AAAAAAAADXc/ghlbMrG6NxgLTqZOyGb3FDmqvuu584_ZQ/s1600/business-man-1031755_960_720.jpg" alt="" />
                         <span className={Styled.moreStorise_Title}>BUSINES</span>
@@ -86,7 +92,7 @@ const MoreStorise = () => {
                 </div>
 
 
-                <div className={Styled.containtofmorestorise}>
+                <div className={Styled.containtofmorestorise} data-aos="fade-left">
                     <div className={Styled.imgdiv}>
                         <img src="https://1.bp.blogspot.com/-NgTHE9VTuzU/VupZzu7WM1I/AAAAAAAADXE/GlsZafgUyb8FDNP19GfHsnIhiUTjbFk3w/w416-h226-p-k-no-nu/beef-1204649_960_720.jpg" alt="" />
                         <span className={Styled.moreStorise_Title}>FOOD</span>
@@ -98,7 +104,7 @@ const MoreStorise = () => {
                     </div>
                 </div>
 
-                <div className={Styled.containtofmorestorise}>
+                <div className={Styled.containtofmorestorise} data-aos="fade-left">
                     <div className={Styled.imgdiv}>
                         <img src="https://4.bp.blogspot.com/-WQooH_zXbmE/Vupbh9DASKI/AAAAAAAADXY/ar3YOh4Tu986R3N0gA65ckU8APk43ArQQ/w416-h226-p-k-no-nu/buildings-1149917_960_720.jpg" alt="" />
                         <span className={Styled.moreStorise_Title}>PHOTOGRAPHY</span>

@@ -9,8 +9,13 @@ import PopularPost from './Components/PopularPost/PopularPost';
 import Pagination from './Components/Pagination/Pagination';
 import Footer from './Components/Footer/Footer';
 import LastFooter from './Components/LaftFooter/LastFooter';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className={Styled.App}>
       <NavBar1 />
