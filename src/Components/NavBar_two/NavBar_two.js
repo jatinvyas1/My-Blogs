@@ -4,7 +4,7 @@ import DarkMode from '../DarkMode/DarkMode'
 const NavBarTwo = () => {
   return (
     <div className={Styed.navbartwo_container}>
-      <div className={Styed.logo}><span>My Blogs</span></div>
+      <div className={Styed.logo}>My Blogs</div>
         <div className={Styed.navbar_two_section}>
             <ul>
                 <li className={Styed.listSection}><span className={Styed.listSectionLogo}> <i class="fa fa-bullhorn" aria-hidden="true"></i></span>LETEST</li>

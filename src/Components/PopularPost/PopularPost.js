@@ -34,7 +34,18 @@ const PopularPost = () => {
                 <span>August 23, 2016</span>
             </div>
         </div>
+
+        <div className={Styled.youtube}>
+            <div className={Styled.innerYoutube}>
+                <h1 className={Styled.FeaturedPost}>FEATURED POST</h1>
+            <iframe width="405" height="300" src="https://www.youtube.com/embed/slb-gnG8Jhk?start=45?showinfo=0"></iframe>
+            <iframe width="403" height="300" src="https://www.youtube.com/embed/IUN664s7N-c?start=45" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="403" height="300" src="https://www.youtube.com/embed/OO3uO8EzC14?start=45" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            
+        </div>
     </div>
+    
   )
 }
 

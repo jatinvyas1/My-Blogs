@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import Styled from "./Navbarthree.module.css"
-
+import { Transition,CSSTransition } from 'react-transition-group';
 
 const NavBarThree = () => {
     const [isopenSearch, setOpenSearch] = useState(true)
